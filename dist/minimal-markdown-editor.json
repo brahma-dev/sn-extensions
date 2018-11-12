@@ -6,7 +6,7 @@
 	"version": "1.1.2",
 	"description": "A minimal Markdown editor with inline style support.",
 	"url": "https://cdn.staticaly.com/gh/sn-extensions/minimal-markdown-editor/1.1.2/index.html",
-	"download_url": "https://api.github.com/repos/sn-extensions/minimal-markdown-editor/zipball/1.1.2",
+	"download_url": "https://github.com/sn-extensions/minimal-markdown-editor/archive/1.1.2.zip",
 	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/minimal-markdown-editor/1.1.2/index.html",
 	"marketing_url": "https://standardnotes.org/extensions/minimal-markdown",
 	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/editors/min-markdown.jpg"

@@ -6,7 +6,7 @@
 	"version": "1.1.1",
 	"description": "Useful utility bar with information about the current note as well as actions like duplicate, copy, and save",
 	"url": "https://cdn.staticaly.com/gh/sn-extensions/action-bar/1.1.1/index.html",
-	"download_url": "https://api.github.com/repos/sn-extensions/action-bar/zipball/1.1.1",
+	"download_url": "https://github.com/sn-extensions/action-bar/archive/1.1.1.zip",
 	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/action-bar/1.1.1/index.html",
 	"marketing_url": "https://standardnotes.org/extensions/action-bar",
 	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/components/action-bar.jpg"

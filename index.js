@@ -49,7 +49,7 @@ const mapRepos = function([repos]) {
 			for (let x in tags) {
 				tags[x][0] = tags[x][0].filter((e) => e.draft == false && e.prerelease == false);
 				if (tags[x][0][0]) {
-					map[tags[x][1]].download_url = `https://api.github.com/repos/sn-extensions/${tags[x][1]}/zipball/${tags[x][0][0].tag_name}`;
+					map[tags[x][1]].download_url = `https://github.com/sn-extensions/${tags[x][1]}/archive/${tags[x][0][0].tag_name}.zip`;
 					map[tags[x][1]].version = tags[x][0][0].tag_name;
 					packages.push(getJSON("raw.githubusercontent.com", `/sn-extensions/${tags[x][1]}/${tags[x][0][0].tag_name}/package.json`, tags[x][1]));
 				}
