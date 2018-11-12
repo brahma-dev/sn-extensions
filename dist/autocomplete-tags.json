@@ -1,0 +1,13 @@
+{
+	"identifier": "org.example.autocomplete-tags",
+	"name": "Quick Tags",
+	"content_type": "SN|Component",
+	"area": "note-tags",
+	"version": "1.1.1",
+	"description": "Work more efficiently by quickly selecting from a live list of tags while you type. Supports keyboard shortcuts and folders.",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/autocomplete-tags/1.1.1/index.html",
+	"download_url": "https://api.github.com/repos/sn-extensions/autocomplete-tags/zipball/1.1.1",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/autocomplete-tags/1.1.1/index.html",
+	"marketing_url": "https://standardnotes.org/extensions/quick-tags",
+	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/components/autocomplete.jpg"
+}

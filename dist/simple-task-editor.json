@@ -1,0 +1,13 @@
+{
+	"identifier": "org.example.simple-task-editor",
+	"name": "Simple Task Editor",
+	"content_type": "SN|Component",
+	"area": "editor-editor",
+	"version": "1.1.8",
+	"description": "A great way to manage short-term and long-term to-do's. You can mark tasks as completed, change their order, and edit the text naturally in place.",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/simple-task-editor/1.1.8/index.html",
+	"download_url": "https://api.github.com/repos/sn-extensions/simple-task-editor/zipball/1.1.8",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/simple-task-editor/1.1.8/index.html",
+	"marketing_url": "https://standardnotes.org/extensions/simple-task-editor",
+	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/editors/task-editor.jpg"
+}

@@ -1,0 +1,13 @@
+{
+	"identifier": "org.example.solarized-dark-theme",
+	"name": "Solarized Dark Theme",
+	"content_type": "SN|Component",
+	"area": "themes",
+	"version": "1.1.2",
+	"description": "The perfect theme for any time.",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/solarized-dark-theme/1.1.2/dist/dist.css",
+	"download_url": "https://api.github.com/repos/sn-extensions/solarized-dark-theme/zipball/1.1.2",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/solarized-dark-theme/1.1.2/dist/dist.css",
+	"marketing_url": "https://standardnotes.org/extensions/solarized-dark",
+	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/themes/solarized-dark.jpg"
+}

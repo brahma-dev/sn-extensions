@@ -1,0 +1,13 @@
+{
+	"identifier": "org.example.code-editor",
+	"name": "Code Editor",
+	"content_type": "SN|Component",
+	"area": "editor-editor",
+	"version": "1.1.2",
+	"description": "Syntax highlighting and convenient keyboard shortcuts for over 120 programming languages. Ideal for code snippets and procedures.",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/code-editor/1.1.2/index.html",
+	"download_url": "https://api.github.com/repos/sn-extensions/code-editor/zipball/1.1.2",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/code-editor/1.1.2/index.html",
+	"marketing_url": "https://standardnotes.org/extensions/code-editor",
+	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/editors/code.jpg"
+}

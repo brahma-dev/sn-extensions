@@ -1,0 +1,13 @@
+{
+	"identifier": "org.example.folders-component",
+	"name": "Folders",
+	"content_type": "SN|Component",
+	"area": "tags-list",
+	"version": "1.1.13",
+	"description": "Create nested folders from your tags with easy drag and drop. Folders also supports Smart Tags, which allow you to build custom filters for viewing your notes.",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/folders-component/1.1.13/index.html",
+	"download_url": "https://api.github.com/repos/sn-extensions/folders-component/zipball/1.1.13",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/folders-component/1.1.13/index.html",
+	"marketing_url": "https://standardnotes.org/extensions/folders",
+	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/components/folders.jpg"
+}

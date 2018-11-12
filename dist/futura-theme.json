@@ -1,0 +1,13 @@
+{
+	"identifier": "org.example.futura-theme",
+	"name": "Futura Theme",
+	"content_type": "SN|Component",
+	"area": "themes",
+	"version": "1.1.2",
+	"description": "Calm and relaxed. Take some time off.",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/futura-theme/1.1.2/dist/dist.css",
+	"download_url": "https://api.github.com/repos/sn-extensions/futura-theme/zipball/1.1.2",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/futura-theme/1.1.2/dist/dist.css",
+	"marketing_url": "https://standardnotes.org/extensions/futura",
+	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/themes/futura-with-mobile.jpg"
+}

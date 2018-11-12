@@ -1,0 +1,13 @@
+{
+	"identifier": "org.example.midnight-theme",
+	"name": "Midnight Theme",
+	"content_type": "SN|Component",
+	"area": "themes",
+	"version": "1.1.2",
+	"description": "Elegant utilitarianism.",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/midnight-theme/1.1.2/dist/dist.css",
+	"download_url": "https://api.github.com/repos/sn-extensions/midnight-theme/zipball/1.1.2",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/midnight-theme/1.1.2/dist/dist.css",
+	"marketing_url": "https://standardnotes.org/extensions/midnight",
+	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/themes/midnight-with-mobile.jpg"
+}
