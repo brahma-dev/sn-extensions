@@ -44,19 +44,23 @@ const mapRepos = function([repos]) {
 				console.log(`Missing ${repos[x].name}`);
 			}
 		}
+		let packages = [];
 		Promise.all(releases).then(function(tags) {
 			for (let x in tags) {
 				tags[x][0] = tags[x][0].filter((e) => e.draft == false && e.prerelease == false);
 				if (tags[x][0][0]) {
 					map[tags[x][1]].download_url = `https://api.github.com/repos/sn-extensions/${tags[x][1]}/zipball/${tags[x][0][0].tag_name}`;
 					map[tags[x][1]].version = tags[x][0][0].tag_name;
-					if (map[tags[x][1]].area == "themes") {
-						map[tags[x][1]].url = `https://cdn.staticaly.com/gh/sn-extensions/${tags[x][1]}/${tags[x][0][0].tag_name}/dist/dist.css`;
-						map[tags[x][1]].latest_url = `https://cdn.staticaly.com/gh/sn-extensions/${tags[x][1]}/${tags[x][0][0].tag_name}/dist/dist.css`;
-					} else {
-						map[tags[x][1]].url = `https://cdn.staticaly.com/gh/sn-extensions/${tags[x][1]}/${tags[x][0][0].tag_name}/index.html`;
-						map[tags[x][1]].latest_url = `https://cdn.staticaly.com/gh/sn-extensions/${tags[x][1]}/${tags[x][0][0].tag_name}/index.html`;
-					}
+					packages.push(getJSON("raw.githubusercontent.com", `/sn-extensions/${tags[x][1]}/${tags[x][0][0].tag_name}/package.json`, tags[x][1]));
+				}
+			}
+			return Promise.all(packages);
+		}).then(function(pkg) {
+			for (let x in pkg) {
+				if (map[pkg[x][1]].area == "themes") {
+					map[pkg[x][1]].url = map[pkg[x][1]].latest_url = `https://cdn.staticaly.com/gh/sn-extensions/${pkg[x][1]}/${pkg[x][0].version}/${(pkg[x][0].sn && pkg[x][0].sn.main) || "dist/dist.css"}`;
+				} else {
+					map[pkg[x][1]].url = map[pkg[x][1]].latest_url = `https://cdn.staticaly.com/gh/sn-extensions/${pkg[x][1]}/${pkg[x][0].version}/${(pkg[x][0].sn && pkg[x][0].sn.main) || "index.html"}`;
 				}
 			}
 		}).then(respond);
@@ -66,7 +70,6 @@ const mapRepos = function([repos]) {
 const writeJSON = function() {
 	Object.keys(map).map(function(objectKey, index) {
 		let value = map[objectKey];
-		console.log(value);
 		fs.writeFileSync(path.join(__dirname, './dist/', objectKey + ".json"), JSON.stringify(value, "", "\t") + "\n", "utf8");
 	});
 };
