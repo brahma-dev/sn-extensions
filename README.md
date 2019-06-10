@@ -14,6 +14,7 @@ Then adapt the following URLs to install
 - Code Editor : [[Your Public URL]]/extensions/sn-extensions/dist/code-editor.json
 - Vim Editor : [[Your Public URL]]/extensions/sn-extensions/dist/vim-editor.json
 - Simple Task Editor : [[Your Public URL]]/extensions/sn-extensions/dist/simple-task-editor.json
+- Bold Editor : [[Your Public URL]]/extensions/sn-extensions/dist/bold-editor.json
 - Quick Tags : [[Your Public URL]]/extensions/sn-extensions/dist/autocomplete-tags.json
 - Action Bar : [[Your Public URL]]/extensions/sn-extensions/dist/action-bar.json
 - GitHub Push : [[Your Public URL]]/extensions/sn-extensions/dist/github-push.json
@@ -25,3 +26,4 @@ Then adapt the following URLs to install
 - Solarized Dark Theme : [[Your Public URL]]/extensions/sn-extensions/dist/solarized-dark-theme.json
 - Dynamic Theme : [[Your Public URL]]/extensions/sn-extensions/dist/dynamic-theme.json
 - No Distraction Theme : [[Your Public URL]]/extensions/sn-extensions/dist/no-distraction-theme.json
+- Autobiography Theme : [[Your Public URL]]/extensions/sn-extensions/dist/autobiography-theme.json

@@ -3,11 +3,11 @@
 	"name": "GitHub Push",
 	"content_type": "SN|Component",
 	"area": "editor-stack",
-	"version": "1.0.0",
+	"version": "1.2.1",
 	"description": "Push note changes to a public or private GitHub repository, with options for file extension and commit message.",
-	"url": "https://cdn.staticaly.com/gh/sn-extensions/github-push/1.0.0/index.html",
-	"download_url": "https://github.com/sn-extensions/github-push/archive/1.0.0.zip",
-	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/github-push/1.0.0/index.html",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/github-push/1.2.1/index.html",
+	"download_url": "https://github.com/sn-extensions/github-push/archive/1.2.1.zip",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/github-push/1.2.1/index.html",
 	"marketing_url": "https://standardnotes.org/extensions/github-push",
 	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/components/github-push.jpg"
 }

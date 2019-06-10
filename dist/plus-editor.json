@@ -3,11 +3,11 @@
 	"name": "Plus Editor",
 	"content_type": "SN|Component",
 	"area": "editor-editor",
-	"version": "1.1.6",
+	"version": "1.3.1",
 	"description": "From highlighting to custom font sizes and colors, to tables and lists, this editor is perfect for crafting any document. (Converts your note to an HTML format.)",
-	"url": "https://cdn.staticaly.com/gh/sn-extensions/plus-editor/1.1.6/index.html",
-	"download_url": "https://github.com/sn-extensions/plus-editor/archive/1.1.6.zip",
-	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/plus-editor/1.1.6/index.html",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/plus-editor/1.3.1/index.html",
+	"download_url": "https://github.com/sn-extensions/plus-editor/archive/1.3.1.zip",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/plus-editor/1.3.1/index.html",
 	"marketing_url": "https://standardnotes.org/extensions/plus-editor",
 	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/editors/plus-editor.jpg"
 }

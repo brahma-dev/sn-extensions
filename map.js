@@ -103,6 +103,19 @@ module.exports = {
 		"marketing_url": "https://standardnotes.org/extensions/simple-task-editor",
 		"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/editors/task-editor.jpg"
 	},
+	"bold-editor": {
+		"identifier": "org.example.bold-editor",
+		"name": "Bold Editor",
+		"content_type": "SN|Component",
+		"area": "editor-editor",
+		"version": "",
+		"description": "A simple and peaceful rich editor that helps you write and think clearly. Features FileSafe integration, so you can embed your encrypted images, videos, and audio recordings directly inline.",
+		"url": "",
+		"download_url": "",
+		"latest_url": "",
+		"marketing_url": "",
+		"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/editors/bold.jpg"
+	},
 	"autocomplete-tags": {
 		"identifier": "org.example.autocomplete-tags",
 		"name": "Quick Tags",
@@ -245,5 +258,18 @@ module.exports = {
 		"latest_url": "",
 		"marketing_url": "https://standardnotes.org/extensions/no-distraction",
 		"thumbnail_url": ""
+	},
+	"autobiography-theme": {
+		"identifier": "org.example.autobiography-theme",
+		"name": "Autobiography Theme",
+		"content_type": "SN|Component",
+		"area": "themes",
+		"version": "",
+		"description": "A theme for writers and readers.",
+		"url": "",
+		"download_url": "",
+		"latest_url": "",
+		"marketing_url": "",
+		"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/themes/autobiography.jpg"
 	}
 };

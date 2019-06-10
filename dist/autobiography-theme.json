@@ -1,0 +1,13 @@
+{
+	"identifier": "org.example.autobiography-theme",
+	"name": "Autobiography Theme",
+	"content_type": "SN|Component",
+	"area": "themes",
+	"version": "1.0.0",
+	"description": "A theme for writers and readers.",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/autobiography-theme/1.0.0/dist/dist.css",
+	"download_url": "https://github.com/sn-extensions/autobiography-theme/archive/1.0.0.zip",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/autobiography-theme/1.0.0/dist/dist.css",
+	"marketing_url": "",
+	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/themes/autobiography.jpg"
+}

@@ -3,11 +3,11 @@
 	"name": "Midnight Theme",
 	"content_type": "SN|Component",
 	"area": "themes",
-	"version": "1.1.2",
+	"version": "1.2.1",
 	"description": "Elegant utilitarianism.",
-	"url": "https://cdn.staticaly.com/gh/sn-extensions/midnight-theme/1.1.2/dist/dist.css",
-	"download_url": "https://github.com/sn-extensions/midnight-theme/archive/1.1.2.zip",
-	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/midnight-theme/1.1.2/dist/dist.css",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/midnight-theme/1.2.1/dist/dist.css",
+	"download_url": "https://github.com/sn-extensions/midnight-theme/archive/1.2.1.zip",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/midnight-theme/1.2.1/dist/dist.css",
 	"marketing_url": "https://standardnotes.org/extensions/midnight",
 	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/themes/midnight-with-mobile.jpg"
 }

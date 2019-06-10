@@ -1,0 +1,13 @@
+{
+	"identifier": "org.example.bold-editor",
+	"name": "Bold Editor",
+	"content_type": "SN|Component",
+	"area": "editor-editor",
+	"version": "1.0.4",
+	"description": "A simple and peaceful rich editor that helps you write and think clearly. Features FileSafe integration, so you can embed your encrypted images, videos, and audio recordings directly inline.",
+	"url": "https://cdn.staticaly.com/gh/sn-extensions/bold-editor/1.0.4/dist/index.html",
+	"download_url": "https://github.com/sn-extensions/bold-editor/archive/1.0.4.zip",
+	"latest_url": "https://cdn.staticaly.com/gh/sn-extensions/bold-editor/1.0.4/dist/index.html",
+	"marketing_url": "",
+	"thumbnail_url": "https://s3.amazonaws.com/standard-notes/screenshots/models/editors/bold.jpg"
+}
